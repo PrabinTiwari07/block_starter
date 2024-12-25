@@ -22,7 +22,7 @@ class StudentState {
   }) {
     return StudentState(
       lstStudents: lstStudents ?? this.lstStudents,
-      isLoading: this.isLoading,
+      isLoading: isLoading ?? this.isLoading,
     );
   }
 }
